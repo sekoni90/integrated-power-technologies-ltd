@@ -5,6 +5,8 @@ import Link from "next/link";
 import { Lock, Eye, EyeOff, CheckCircle } from "lucide-react";
 import { useSearchParams } from "next/navigation";
 
+export const dynamic = 'force-dynamic';
+
 function ResetPasswordForm() {
   const searchParams = useSearchParams();
   const token = searchParams.get("token");
