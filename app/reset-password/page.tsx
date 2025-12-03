@@ -3,12 +3,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Lock, Eye, EyeOff, CheckCircle } from "lucide-react";
-import { useSearchParams } from "next/navigation";
 
 export default function ResetPasswordPage() {
-  const searchParams = useSearchParams();
-  const token = searchParams.get("token");
-  
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const [isReset, setIsReset] = useState(false);
