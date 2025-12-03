@@ -1,0 +1,81 @@
+═══════════════════════════════════════════════════════════════════
+  INTEGRATED POWER TECHNOLOGIES LTD - E-COMMERCE WEBSITE
+  Quick Start Guide
+═══════════════════════════════════════════════════════════════════
+
+🚀 START THE WEBSITE
+────────────────────────────────────────────────────────────────────
+1. Open terminal/command prompt
+2. Navigate to project: cd integrated-power-tech
+3. Run: npm run dev
+4. Open browser: http://localhost:3000
+
+✅ BUILD STATUS: SUCCESSFUL
+────────────────────────────────────────────────────────────────────
+✓ All pages compiled successfully
+✓ No TypeScript errors
+✓ Production build tested
+✓ Responsive design verified
+
+🎨 COLOR SCHEME
+────────────────────────────────────────────────────────────────────
+Primary:  Blue-600  (#2563eb)
+Accent:   Yellow    (#fbbf24)
+Dark:     Black     (#000000)
+
+📄 PAGES CREATED
+────────────────────────────────────────────────────────────────────
+/ ................... Home page with hero, products, features
+/products ........... Full product catalog with filtering
+/about .............. Company information and values
+/contact ............ Contact form and company details
+
+🛍️ SOCOMEC UPS PRODUCTS FEATURED
+────────────────────────────────────────────────────────────────────
+• NETYS RT (1-3 kVA) - Single Phase
+• NETYS PR (700-3000 VA) - Single Phase
+• Green Power 2.0 (10-40 kVA) - Three Phase
+• MASTERYS BC (10-120 kVA) - Three Phase
+• MODULYS GP (20-500 kW) - Modular
+• DELPHYS MP Elite (160-500 kVA) - Three Phase
+
+📦 COMPONENTS
+────────────────────────────────────────────────────────────────────
+Header .............. Navigation with cart
+Footer .............. Links, contact info, social media
+Hero ................ Main banner with CTA
+ProductCategories ... 4 category cards
+FeaturedProducts .... Product grid with prices
+WhyChooseUs ......... 4 feature highlights
+ContactCTA .......... Call-to-action section
+
+🔧 TECHNOLOGY STACK
+────────────────────────────────────────────────────────────────────
+Framework:  Next.js 15 (App Router)
+Language:   TypeScript
+Styling:    Tailwind CSS v4
+Icons:      Lucide React
+Build:      Turbopack
+
+📝 NEXT STEPS
+────────────────────────────────────────────────────────────────────
+1. Add real Socomec UPS product images to public/images/
+2. Update company contact information
+3. Replace placeholder content with actual data
+4. Deploy to Vercel or your preferred hosting
+
+📚 DOCUMENTATION
+────────────────────────────────────────────────────────────────────
+README.md ............. Project overview
+SETUP.md .............. Detailed setup instructions
+PROJECT_SUMMARY.md .... Complete project documentation
+
+🌐 DEPLOYMENT
+────────────────────────────────────────────────────────────────────
+Build: npm run build
+Start: npm start
+Deploy: Push to GitHub → Import to Vercel → Deploy
+
+═══════════════════════════════════════════════════════════════════
+Need help? Check the documentation files or contact your developer.
+═══════════════════════════════════════════════════════════════════
